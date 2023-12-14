@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');  // 导入path模块用于处理文件路径
 
 // 2. 读取code文件中所有的文件列表
-let files = fs.readdirSync('./codes');
+let files = fs.readdirSync(path.join(__dirname, 'assets'));
 
 
 // 遍历数组
@@ -17,8 +17,8 @@ files.forEach(item => {
   if (indexStr[0] !== '0' && !isNaN(indexStr) && parseInt(indexStr, 10) < 10) {
     // 重命名：在原文件名前加上'0'
     let newName = `0${item}`;
-    let oldPath = path.join(__dirname, 'codes', item);
-    let newPath = path.join(__dirname, 'codes', newName);
+    let oldPath = path.join(__dirname, 'assets', item);
+    let newPath = path.join(__dirname, 'assets', newName);
 
     // 执行重命名
     try {
