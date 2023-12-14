@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');  // 导入path模块用于处理文件路径
 
 // 2. 读取code文件中所有的文件列表
-let files = fs.readdirSync(path.resolve(__dirname, './assets'));
+let files = fs.readdirSync(path.resolve(__dirname, 'assets'));
 
 // 遍历数组
 files.forEach(item => {
