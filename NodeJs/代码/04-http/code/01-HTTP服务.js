@@ -6,7 +6,7 @@ const http = require('http');
 // response形参用于定义返回的响应报文
 // 回调函数会在接收到请求报文的时候执行
 const server = http.createServer((request, response) => {
-  // response.end('Hello HTTP Server');  // 设置响应体，并结束相应
+  // response.end('Hello HTTP Server');  // 设置响应体，并结束响应
   response.setHeader('content-type', 'text/html;charset=utf-8');
   response.end('你好');  // 中文出现乱码
 });
