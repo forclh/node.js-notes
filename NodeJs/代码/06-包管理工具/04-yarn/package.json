@@ -1,0 +1,15 @@
+{
+  "name": "04-yarn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "server": "node index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.7.1"
+  },
+  "devDependencies": {
+    "less": "^4.2.0"
+  }
+}
