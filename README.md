@@ -1,5 +1,76 @@
-# Node.js
+## Node.js
 |视频教程|官方资料|手敲代码|
 | :---: | :---: |:---:|
 |[尚硅谷2023版Node.js零基础视频教程，nodejs新手到高手](https://www.bilibili.com/video/BV1gM411W7ex?p=1&vd_source=8178530fbcba3b01db39ea80d35da960)|[百度网盘](https://pan.baidu.com/s/1sDOMvUdY9UF3mlJ7ujOADg?pwd=s3wj)|[NodeJS](./NodeJs/) |
 
+
+## 教程内容
+1. Buffer
+   1. 概念
+   2. 特点
+   3. 使用
+2. fs模块
+   1. 文件写入
+   2. 文件读取
+   3. 文件移动与重命名
+   4. 文件删除
+   5. 文件夹操作
+   6. 查看资源状态
+   7. 相对路径问题
+   8. __dirname
+3. path模块
+4. HTTP协议
+   1. 概念
+   2. 请求报文组成
+   3. HTTP请求行
+   4. HTTP请求头
+   5. HTTP请求体
+   6. 响应报文的组成
+   7. 创建HTTP服务
+   8. 通过浏览器查看HTTP报文
+   9. 获取HTTP请求报文
+   10. 设置HTTP相应报文
+   11. 网页资源的基本加载过程
+   12. 静态资源服务
+   13. GET和POST请求的区别
+5. 模块化
+   1. 介绍
+   2. 模块暴露数据
+   3. 模块引入
+   4. 模块引入底层基本流程
+   5. CommonJS规范
+6. 包管理工具
+   1. 概念介绍
+   2. npm
+   3. cnpm
+   4. yarn
+   5. 管理发布包
+   6. 扩展内容
+7. nvm
+8. express框架
+   1. 介绍
+   2. express使用
+   3. express路由
+   4. express相应设置
+   5. express中间件
+   6. Router
+   7. EJS模版引擎
+9. MongoDB
+   1. 简介
+   2. 核心概念
+   3. 下载安装和启动
+   4. 命令行交互
+   5. Mongoose
+   6. 图形化管理工具
+10. 接口
+    1. 简介
+    2. RESTful API
+    3. json-server
+    4. 接口测试工具
+11. 绘画控制
+    1. 介绍
+    2. cookie
+    3. session
+    4. session 和 cookie 的区别
+    5. token
+    6. 扩展
