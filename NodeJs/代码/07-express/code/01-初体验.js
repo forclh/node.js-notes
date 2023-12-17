@@ -1,4 +1,4 @@
-// 1.导入express
+// 1. 导入express
 const express = require('express');
 
 // 2. 创建应用对象
