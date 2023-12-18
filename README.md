@@ -1,76 +1,96 @@
 ## Node.js
 |视频教程|官方资料|手敲代码|
 | :---: | :---: |:---:|
-|[尚硅谷2023版Node.js零基础视频教程，nodejs新手到高手](https://www.bilibili.com/video/BV1gM411W7ex?p=1&vd_source=8178530fbcba3b01db39ea80d35da960)|[百度网盘](https://pan.baidu.com/s/1wwf6mHZINpDy4i3BssIFQg?pwd=77vv)|[NodeJS](./NodeJs/) |
+|[尚硅谷2023版Node.js零基础视频教程，nodejs新手到高手](https://www.bilibili.com/video/BV1gM411W7ex?p=1&vd_source=8178530fbcba3b01db39ea80d35da960)|[百度网盘](https://pan.baidu.com/s/1wwf6mHZINpDy4i3BssIFQg?pwd=77vv)|[更新中](./NodeJs/) |
 
 
-## 教程内容
-1. Buffer
-   1. 概念
-   2. 特点
-   3. 使用
-2. fs模块
-   1. 文件写入
-   2. 文件读取
-   3. 文件移动与重命名
-   4. 文件删除
-   5. 文件夹操作
-   6. 查看资源状态
-   7. 相对路径问题
-   8. __dirname
-3. path模块
-4. HTTP协议
-   1. 概念
-   2. 请求报文组成
-   3. HTTP请求行
-   4. HTTP请求头
-   5. HTTP请求体
-   6. 响应报文的组成
-   7. 创建HTTP服务
-   8. 通过浏览器查看HTTP报文
-   9. 获取HTTP请求报文
-   10. 设置HTTP相应报文
-   11. 网页资源的基本加载过程
-   12. 静态资源服务
-   13. GET和POST请求的区别
-5. 模块化
-   1. 介绍
-   2. 模块暴露数据
-   3. 模块引入
-   4. 模块引入底层基本流程
-   5. CommonJS规范
-6. 包管理工具
-   1. 概念介绍
-   2. npm
-   3. cnpm
-   4. yarn
-   5. 管理发布包
-   6. 扩展内容
-7. nvm
-8. express框架
-   1. 介绍
-   2. express使用
-   3. express路由
-   4. express相应设置
-   5. express中间件
-   6. Router
-   7. EJS模版引擎
-9. MongoDB
-   1. 简介
-   2. 核心概念
-   3. 下载安装和启动
-   4. 命令行交互
-   5. Mongoose
-   6. 图形化管理工具
-10. 接口
-    1. 简介
-    2. RESTful API
-    3. json-server
-    4. 接口测试工具
-11. 绘画控制
-    1. 介绍
-    2. cookie
-    3. session
-    4. session 和 cookie 的区别
-    5. token
-    6. 扩展
+## 教程内容和学习情况
+
+- [x] 1. Buffer
+
+  - [x] 概念
+  - [x] 特点
+  - [x] 使用
+
+- [x] 2. fs模块
+
+  - [x] 文件写入
+  - [x] 文件读取
+  - [x] 文件移动与重命名
+  - [x] 文件删除
+  - [x] 文件夹操作
+  - [x] 查看资源状态
+  - [x] 相对路径问题
+  - [x] __dirname
+
+- [x] 3. path模块
+
+- [x] 4. HTTP协议
+
+  - [x] 概念
+  - [x] 请求报文组成
+  - [x] HTTP请求行
+  - [x] HTTP请求头
+  - [x] HTTP请求体
+  - [x] 响应报文的组成
+  - [x] 创建HTTP服务
+  - [x] 通过浏览器查看HTTP报文
+  - [x] 获取HTTP请求报文
+  - [x] 设置HTTP响应报文
+  - [x] 网页资源的基本加载过程
+  - [x] 静态资源服务
+  - [x] GET和POST请求的区别
+
+- [x] 5. 模块化
+
+  - [x] 介绍
+  - [x] 模块暴露数据
+  - [x] 模块引入
+  - [x] 模块引入底层基本流程
+  - [x] CommonJS规范
+
+- [x] 6. 包管理工具
+
+  - [x] 概念介绍
+  - [x] npm
+  - [x] cnpm
+  - [x] yarn
+  - [x] 管理发布包
+  - [x] 扩展内容
+
+- [x] 7. nvm
+
+- [x] 8. express框架
+
+  - [x] 介绍
+  - [x] express使用
+  - [x] express路由
+  - [x] express响应设置
+  - [x] express中间件
+  - [ ] Router
+  - [ ] EJS模版引擎
+
+- [ ] 9. MongoDB
+
+  - [ ] 简介
+  - [ ] 核心概念
+  - [ ] 下载安装和启动
+  - [ ] 命令行交互
+  - [ ] Mongoose
+  - [ ] 图形化管理工具
+
+- [ ] 10. 接口
+
+  - [ ] 简介
+  - [ ] RESTful API
+  - [ ] json-server
+  - [ ] 接口测试工具
+
+- [ ] 11. 会话控制
+
+  - [ ] 介绍
+  - [ ] cookie
+  - [ ] session
+  - [ ] session 和 cookie 的区别
+  - [ ] token
+  - [ ] 扩展
