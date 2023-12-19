@@ -71,7 +71,7 @@
   - [x] EJS模版引擎
   - [x] express-generator工具
   - [x] 处理文件上传（formidable包）
-  - [ ] 实践案例
+  - [x] 记事本案例
 
 - [ ] 9. MongoDB
 
