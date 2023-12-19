@@ -67,8 +67,11 @@
   - [x] express路由
   - [x] express响应设置
   - [x] express中间件
-  - [ ] Router
-  - [ ] EJS模版引擎
+  - [x] Router
+  - [x] EJS模版引擎
+  - [x] express-generator工具
+  - [x] 处理文件上传（formidable包）
+  - [ ] 实践案例
 
 - [ ] 9. MongoDB
 
