@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>登录</title>
+</head>
+
+<body>
+  <h2>用户登录</h2>
+  <hr>
+  <!-- 登录表单 -->
+  <!-- <form action="http://127.0.0.1:3000/login" method="post"> -->
+  <!-- 可以直接用绝对路径/login，这种方式会自动拼接当前网页的协议域名和端口 -->
+  <form action="/login" method="post">
+    用户名：<input type="text" name="username"><br>
+    密码：<input type="password" name="password"><br>
+    <input type="submit" value="登录">
+  </form>
+</body>
+
+</html>
