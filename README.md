@@ -82,7 +82,7 @@
   - [x] Mongoose
     - [x] Mongoose基础
     - [x] Mongoose模块化
-  - [ ] 图形化管理工具
+  - [x] 图形化管理工具
 
 - [ ] 10. 接口
 
