@@ -6,7 +6,7 @@
 
 ## 教程内容和学习情况
 
-- [x] 1. Buffer
+- [x] 1. [Buffer](./NodeJs/代码/01-buffer/buffer.md)
 
   - [x] 概念
   - [x] 特点
