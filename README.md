@@ -6,7 +6,7 @@
 
 ## 教程内容和学习情况
 
-- [x] 1. [Buffer](./NodeJs/代码/01-buffer/buffer.md)
+- [x] 1. [Buffer](./资料/buffer.md)
 
   - [x] 概念
   - [x] 特点
@@ -83,6 +83,7 @@
     - [x] Mongoose基础
     - [x] Mongoose模块化
   - [x] 图形化管理工具
+  - [ ] 记账本案例完善
 
 - [ ] 10. 接口
 
