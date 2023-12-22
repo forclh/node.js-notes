@@ -6,7 +6,7 @@
 
 ## 教程内容和学习情况
 
-- [x] 1. [Buffer](./NodeJs/notes/01-buffer.md)
+- [x] 1. [Buffer](./NodeJs/notes/01-Buffer.md)
 
   - [x] 概念
   - [x] 特点
