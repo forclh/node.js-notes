@@ -1,4 +1,4 @@
-# path模块
+# path 模块
 
 > `path` 模块提供了 `操作路径` 的功能，我们将介绍如下几个较为常用的几个 API：
 
@@ -13,37 +13,36 @@
 
 代码示例：
 
- ```js
- // 导入 fs 模块
- const fs = require('fs')
- // 导入 path 模块
- const path = require('path')
- 
- // 写入文件
- // fs.writeFileSync(__dirname + '/index.html', 'love')
- console.log(__dirname + '/index.html') //=>D:\Desktop\Node\code\04-path/index.html
- 
- // resolve 解决问题  拼接绝对路径
- console.log(path.resolve(__dirname, './index.html')) //=>D:\Desktop\Node\code\04-path\index.html
- console.log(path.resolve(__dirname, 'index.html')) //=>D:\Desktop\Node\code\04-path\index.html
- console.log(path.resolve(__dirname, '/index.html', './test')) //=>D:\index.html\test
- 
- // sep 获取路径分隔符
- console.log(path.sep) //=> window \  linux /
- 
- // parse 方法  __filename  '全局变量'
- console.log(__filename) //=>文件的绝对路径 //=>D:\Desktop\Node\code\04-path\01-path.js
- // 解析路径
- let str = 'D:\\Desktop\\Node\\code\\04-path\\01-path.js'
- console.log(path.parse(str))
- 
- // 获取路径基础名称
- console.log(path.basename(pathname))
- 
- // 获取路径的目录名
- console.log(path.dirname(pathname))
- 
- // 获取路径的拓展名
- console.log(path.extname(pathname))
- ```
+```js
+// 导入 fs 模块
+const fs = require("fs");
+// 导入 path 模块
+const path = require("path");
 
+// 写入文件
+// fs.writeFileSync(__dirname + '/index.html', 'love')
+console.log(__dirname + "/index.html");
+
+// resolve 解决问题  拼接绝对路径
+console.log(path.resolve(__dirname, './index.html'));  // 第一个参数给绝对路径，后面的给相对路径
+console.log(path.resolve(__dirname, 'index.html'));  // ./可以省略
+console.log(path.resolve(__dirname, '/index.html', './test'));  // 不能用/开头，否则会被认为是绝对路径  S:\index.html\test
+
+// sep 获取路径分隔符
+console.log(path.sep); //=> window \  linux /
+
+// parse 方法  __filename  '全局变量'
+console.log(__filename);
+// 解析路径
+let str = 'S:\\Project\\front-end\\notes\\NodeJs\\代码\\03-path模块\\code\\path.js';
+console.log(path.parse(str));
+
+// 获取路径基础名称
+console.log(path.basename(pathname));
+
+// 获取路径的目录名
+console.log(path.dirname(pathname));
+
+// 获取路径的拓展名
+console.log(path.extname(pathname));
+```

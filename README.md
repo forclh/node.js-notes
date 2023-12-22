@@ -6,13 +6,13 @@
 
 ## 教程内容和学习情况
 
-- [x] 1. [Buffer](./NodeJs/资料/01-buffer.md)
+- [x] 1. [Buffer](./NodeJs/notes/01-buffer.md)
 
   - [x] 概念
   - [x] 特点
   - [x] 使用
 
-- [x] 2. [fs模块](./NodeJs/资料/02-fs模块.md)
+- [x] 2. [fs模块](./NodeJs/notes/02-fs模块.md)
 
   - [x] 文件写入
   - [x] 文件读取
@@ -23,7 +23,7 @@
   - [x] 相对路径问题
   - [x] __dirname
 
-- [x] 3. path模块
+- [x] 3. [path模块](./NodeJs/notes/03-path模块.md)
 
 - [x] 4. HTTP协议
 
@@ -85,12 +85,12 @@
   - [x] 图形化管理工具
   - [x] 记账本案例完善
 
-- [ ] 10. 接口
+- [ ] 10. [接口](./NodeJs/notes/10-接口.md)
 
-  - [ ] 简介
-  - [ ] RESTful API
-  - [ ] json-server
-  - [ ] 接口测试工具
+  - [x] 简介
+  - [x] RESTful API
+  - [x] json-server
+  - [x] 接口测试工具
   - [ ] 记账本案例完善
 
 - [ ] 11. 会话控制

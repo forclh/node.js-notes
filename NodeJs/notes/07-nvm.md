@@ -4,7 +4,7 @@
 
 ## 介绍
 
-nvm 全称 `Node Version Manager` 顾名思义它是用来管理 node 版本的工具，方便切换不同版本的Node.js
+nvm 全称 `Node Version Manager` 顾名思义它是用来管理 node 版本的工具，方便切换不同版本的 Node.js
 
 ## 使用
 
@@ -26,4 +26,3 @@ nvm 的使用非常的简单，跟 npm 的使用方法类似
 | nvm install latest    | 安装最新版的 Node.js            |
 | nvm uninstall 18.12.1 | 删除某个版本的 Node.js          |
 | nvm use 18.12.1       | 切换 18.12.1 的 Node.js         |
-
