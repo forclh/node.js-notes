@@ -5,10 +5,10 @@ const http = require('http');
 // 2. 创建服务对象
 const server = http.createServer((request, response) => {
   // 获取请求方法
-  let { method } = request;
+  let { method, url } = request;
   // 获取请求路径
-  const url = new URL(request.url, 'http://127.0.0.1:9000');
-  const { pathname } = url;
+  const { pathname } = new URL(url, 'http://127.0.0.1:9000');
+  console.log(url, pathname);
   // 设置响应头
   response.setHeader('content-type', 'text/html;charset=utf-8');
 

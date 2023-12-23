@@ -4,7 +4,7 @@ const router = express.Router();
 const path = require('path');
 const moment = require('moment');
 
-const AccountModel = require('../models/AccountModel');
+const AccountModel = require('../../models/AccountModel.js');
 
 
 // 记账本列表

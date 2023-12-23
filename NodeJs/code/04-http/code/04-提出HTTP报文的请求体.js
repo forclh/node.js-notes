@@ -5,7 +5,7 @@ const http = require('http');
 const server = http.createServer((request, response) => {
   // 1. 声明一个变量
   let body = '';
-  // 2. 绑定on事件 (request就是一个读取流对象)
+  // 2. 绑定data事件 (request就是一个读取流对象)
   request.on('data', chunk => {
     body += chunk;  // chunk使buffer对象，运算时自动转换成字符串（内部自动调用toString方法，utf-8编码）
   });
