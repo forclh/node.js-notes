@@ -26,7 +26,7 @@
 
 - [x] 3. [path模块](./NodeJs/notes/03-path模块.md)
 
-- [x] 4. HTTP协议
+- [x] 4. [HTTP协议](./NodeJs/notes/04-http协议.md)
 
   - [x] 概念
   - [x] 请求报文组成
