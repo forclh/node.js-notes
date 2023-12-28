@@ -60,7 +60,7 @@
   - [x] 管理发布包
   - [x] 扩展内容
 
-- [x] 7. nvm
+- [x] 7. [nvm](./NodeJs/notes/07-nvm.md)
 
 - [x] 8. express框架
 
