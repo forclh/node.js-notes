@@ -62,7 +62,7 @@
 
 - [x] 7. [nvm](./NodeJs/notes/07-nvm.md)
 
-- [x] 8. express框架
+- [x] 8. [express框架](./NodeJs/notes/08-express框架.md)
 
   - [x] 介绍
   - [x] express使用
