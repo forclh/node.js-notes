@@ -3,6 +3,7 @@
 | :---: | :---: |:---:|
 |[尚硅谷2023版Node.js零基础视频教程，nodejs新手到高手](https://www.bilibili.com/video/BV1gM411W7ex?p=1&vd_source=8178530fbcba3b01db39ea80d35da960)|[百度网盘](https://pan.baidu.com/s/1wwf6mHZINpDy4i3BssIFQg?pwd=77vv)|[更新中](./NodeJs/) |
 
+![课程思维导图](./NodeJs/notes/assets/课程思维导图.jpg)
 
 ## 教程内容和学习情况
 
@@ -95,11 +96,11 @@
   - [x] 接口测试工具
   - [ ] 记账本案例完善
 
-- [ ] 11. 会话控制
+- [x] 11. 会话控制
 
-  - [ ] 介绍
-  - [ ] cookie
-  - [ ] session
-  - [ ] session 和 cookie 的区别
-  - [ ] token
-  - [ ] 扩展
+  - [x] 介绍
+  - [x] cookie
+  - [x] session
+  - [x] session 和 cookie 的区别
+  - [x] token
+  - [x] 扩展

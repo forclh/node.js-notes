@@ -29,6 +29,7 @@ app.get('/get-cookie', (req, res) => {
   console.log(req.cookies);  // 对象
   res.send(`欢迎您 ${req.cookies.name}`);
 });
+
 // 监听端口，启动服务
 app.listen(3000, () => {
   console.log('服务已经启动...');
